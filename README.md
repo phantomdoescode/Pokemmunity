@@ -1,9 +1,9 @@
 # Pokemmunity
 This is my repository for WEBCS Final Project. It will start from September 30 to October 18. Expect updates every day.<br>
 
-<b>Made by: Masaharu M. Kayama<b><br>
-<b>Section: CS - 201<b><br>
-<b>Professor/Instructor: Mr. Chris Almocera<b><br>
+Made by: **Masaharu M. Kayama**<br>
+Section: **CS - 201**<br>
+Professor/Instructor: **Mr. Chris Almocera**<br>
 
 Let's catch them all, shall we?
 

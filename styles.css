@@ -1,0 +1,15 @@
+/* Pokemmunity CSS Stylesheet */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b2735;
+  color: #e5e5e5;
+  min-height: 100vh;
+}

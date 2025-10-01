@@ -13,5 +13,6 @@ Let's catch them all, shall we?
 - Added images that will be used.
 
 ## October 1, 2025
-- Other HTML files initialized. ()
+- Other HTML files initialized. (Badges, Contacts, Home, and Settings)
+- Updated CSS file for Login and Register Page.
 

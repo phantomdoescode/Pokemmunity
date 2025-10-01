@@ -10,9 +10,9 @@ Let's catch them all, shall we?
 ## September 30, 2025
 - The start of my Pokémmunity web app. Login and Register pages were constructed now with comments to easily determine and remodify it in case.
 - The CSS file has also been initialized.
-- Added images that will be used.
+- Added images that will be used in a folder.
 
 ## October 1, 2025
 - Other HTML files initialized. (Badges, Contacts, Home, and Settings)
 - Updated CSS file for Login and Register Page.
-
+- Uploaded the said folder for images.

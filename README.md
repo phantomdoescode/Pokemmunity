@@ -8,5 +8,10 @@ Professor/Instructor: **Mr. Chris Almocera**<br>
 Let's catch them all, shall we?
 
 ## September 30, 2025
-The start of my Pokémmunity web app. Login and Register pages were constructed now with comments to easily determine and remodify it in case. The CSS file has also been initialized.
+- The start of my Pokémmunity web app. Login and Register pages were constructed now with comments to easily determine and remodify it in case.
+- The CSS file has also been initialized.
+- Added images that will be used.
+
+## October 1, 2025
+- Other HTML files initialized. ()
 

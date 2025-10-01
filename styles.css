@@ -1,6 +1,5 @@
 /* Pokemmunity CSS Stylesheet */
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +11,46 @@ body {
   background-color: #1b2735;
   color: #e5e5e5;
   min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Login/Register Page Container */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #1b2735;
+}
+
+.auth-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  z-index: 0;
+}
+
+.auth-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.auth-form {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 600px;
+  padding: 40px;
+  text-align: center;
 }

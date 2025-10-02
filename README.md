@@ -16,3 +16,7 @@ Let's catch them all, shall we?
 - Other HTML files initialized. (Badges, Contacts, Home, and Settings)
 - Updated CSS file for Login and Register Page.
 - Uploaded the said folder for images.
+
+## October 2, 2025
+- Trainer Card HTML file initialized.
+- Initial Code for Trainer Card HTML added.

@@ -20,3 +20,4 @@ Let's catch them all, shall we?
 ## October 2, 2025
 - Trainer Card HTML file initialized.
 - Initial Code for Trainer Card HTML added.
+- Initial Code for Badges HTML added.

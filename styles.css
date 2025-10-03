@@ -55,6 +55,19 @@ body {
   text-align: center;
 }
 
+/* Logo */
+
+.logo {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 40px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
 /* Form Elements */
 
 .form-group {

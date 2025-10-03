@@ -1,4 +1,4 @@
-# Pokemmunity
+# Pokémmunity
 This is my repository for WEBCS Final Project. It will start from September 30 to October 18. Expect updates every day.<br>
 
 Made by: **Masaharu M. Kayama**<br>
@@ -22,3 +22,9 @@ Let's catch them all, shall we?
 - Initial Code for Trainer Card HTML added.
 - Initial Code for Badges HTML added.
 - CSS Updated.
+
+## October 3, 2025
+- Added background image and image of logo1 to login.html
+- Added background image and image of logo1 to register.html
+- CSS Updated (for Logo)
+- Name from Pokemmunity to Pokémmunity

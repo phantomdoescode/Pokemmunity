@@ -27,4 +27,3 @@ Let's catch them all, shall we?
 - Added background image and image of logo1 to login.html
 - Added background image and image of logo1 to register.html
 - CSS Updated (for Logo)
-- Name from Pokemmunity to Pokémmunity

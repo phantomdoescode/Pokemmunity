@@ -29,3 +29,8 @@ Let's catch them all, shall we?
 - Added background image and image of logo1 to login.html
 - Added background image and image of logo1 to register.html
 - CSS Updated (for Logo)
+
+### October 4, 2025
+- Initial Code for Settings HTML added (Change from toggle option to drop-down option for simplicity).
+- Initial Code for Contacts HTML added.
+- CSS Updated (for Dropdown)

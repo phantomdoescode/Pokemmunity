@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Pokemmunity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container bg-primary">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div style="position: absolute; left: 11px; top: 19px; width: 81px; height: 68px;">
+                <img src="" alt="Logo">
+            </div>
+            <div style="position: absolute; left: 28px; top: 174px; width: 45px; height: 36px;">
+                <img src="" alt="Home">
+            </div>
+            <div style="position: absolute; left: 30px; top: 277px; width: 34px; height: 33px;">
+                <img src="" alt="Contacts">
+            </div>
+            <div style="position: absolute; left: 32px; top: 377px; width: 35px; height: 37px;">
+                <img src="" alt="Badges">
+            </div>
+            <div style="position: absolute; left: 30px; top: 481px; width: 38px; height: 30px;">
+                <img src="" alt="Profile">
+            </div>
+            <div style="position: absolute; left: 33px; top: 578px; width: 35px; height: 34px;">
+                <img src="" alt="Settings">
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div style="position: relative; margin-left: 100px; padding: 50px 240px;">
+            <h1 class="font-norwester" style="font-size: 20px; margin-bottom: 10px;">SETTINGS</h1>
+            <p class="font-calps-regular text-shadow" style="font-size: 15px; margin-bottom: 30px;">
+                Manage your account preferences and privacy settings.
+            </p>
+
+            <!-- Settings Grid -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px;">
+                <!-- Appearance -->
+                <div class="card card-border" style="height: 300px; padding: 30px;">
+                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 25px;">Appearance</h2>
+                    
+                    <!-- Light Mode -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Light Mode Pokégear</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Use light theme</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <!-- Auto Theme -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Auto Theme</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Match system preference</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <!-- Accent Color -->
+                    <div>
+                        <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Accent Color (Coming Soon...)</p>
+                        <p class="font-calps-extralight" style="font-size: 10px;">Change accent color</p>
+                    </div>
+                </div>
+
+                <!-- Account -->
+                <div class="card card-border" style="height: 300px; padding: 30px;">
+                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 25px;">Account</h2>
+                    
+                    <!-- Username -->
+                    <div style="margin-bottom: 20px;">
+                        <label class="font-calps-medium" style="font-size: 15px; display: block; margin-bottom: 10px;">Username</label>
+                        <input type="text" class="input-dark" value="PhanDoesGame" style="height: 45px;">
+                    </div>
+
+                    <!-- Email -->
+                    <div style="margin-bottom: 20px;">
+                        <label class="font-calps-medium" style="font-size: 15px; display: block; margin-bottom: 10px;">Email</label>
+                        <input type="email" class="input-dark" value="phantommaster81@gmail.com" style="height: 45px;">
+                    </div>
+
+                    <!-- Change Password Button -->
+                    <button class="btn btn-primary" style="height: 32px; padding: 6px 20px; font-size: 15px;">CHANGE PASSWORD</button>
+                </div>
+
+                <!-- Notifications -->
+                <div class="card card-border" style="height: 300px; padding: 30px;">
+                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 25px;">Notifications</h2>
+                    
+                    <!-- Push Notifications -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Push Notifications</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Receive notifications on your device</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <!-- Email Notifications -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Email Notifications</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Get updates via Email account</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <!-- Trainer Requests -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Trainer Requests</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Notify when someone sends a trainer request</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <!-- New Messages -->
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">New Messages</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Notify on new chat messages</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Privacy & Support -->
+                <div class="card card-border" style="height: 300px; padding: 30px;">
+                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 25px;">Privacy & Support</h2>
+                    
+                    <!-- Profile Visibility -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Profile Visibility</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Who can see your profile</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="anyone">ANYONE</option>
+                            <option value="friends">FRIENDS ONLY</option>
+                            <option value="private">PRIVATE</option>
+                        </select>
+                    </div>
+
+                    <!-- Active/Online Status -->
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+                        <div>
+                            <p class="font-calps-medium" style="font-size: 15px; margin-bottom: 3px;">Active/Online Status</p>
+                            <p class="font-calps-extralight" style="font-size: 10px;">Show when you are active/online in this site</p>
+                        </div>
+                        <select style="width: auto;">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+
+                    <div style="height: 1px; background-color: rgba(229, 229, 229, 0.3); margin: 25px 0;"></div>
+
+                    <!-- Links -->
+                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                        <a href="#" class="font-calps-medium text-underline" style="font-size: 15px; text-decoration: underline;">FAQs and Support</a>
+                        <a href="#" class="font-calps-medium text-underline" style="font-size: 15px; text-decoration: underline;">Privacy Policy</a>
+                        <a href="login.html" class="font-calps-medium text-underline" style="font-size: 15px; text-decoration: underline; color: #ff3f3f;">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

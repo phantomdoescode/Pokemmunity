@@ -101,6 +101,23 @@ textarea::placeholder {
   color: #666;
 }
 
+/* Select dropdown styling */
+
+select {
+  padding: 10px 15px;
+  background-color: #2e3a4d;
+  color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+select option {
+  background-color: #2e3a4d;
+  color: #e5e5e5;
+  padding: 10px;
+}
+
 /* Buttons */
 
 button {

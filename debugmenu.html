@@ -1,0 +1,134 @@
+<!-- THIS IS FOR DEBUGGING TO SEE IF ALL PAGES ARE NAVIGATING TO ANOTHER WEB PAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemmunity - Page Debug Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .nav-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .nav-logo {
+            width: 300px;
+            margin-bottom: 40px;
+        }
+
+        .nav-title {
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .nav-subtitle {
+            font-size: 18px;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 900px;
+        }
+
+        .nav-card {
+            background-color: #2e3a4d;
+            border: 1px solid #e5e5e5;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .nav-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .nav-card a {
+            text-decoration: none;
+            color: #e5e5e5;
+        }
+
+        .nav-card h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .nav-card p {
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-page">
+        <div class="logo">
+            <img src="images/logo2.png" alt="Pokemmunity Logo">
+        </div>
+
+        <p class="nav-subtitle">Select a page to view</p>
+
+        <div class="nav-grid">
+            <div class="nav-card">
+                <a href="login.html">
+                    <h2>LOG IN</h2>
+                    <p>Sign in to your account</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="register.html">
+                    <h2>REGISTER</h2>
+                    <p>Create a new account</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="home.html">
+                    <h2>HOME PAGE</h2>
+                    <p>View your feed</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="contacts.html">
+                    <h2>CONTACTS</h2>
+                    <p>Your trainer list</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="badges.html">
+                    <h2>BADGES</h2>
+                    <p>Your achievements</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="trainer
+                card.html">
+                    <h2>TRAINER CARD</h2>
+                    <p>Your profile</p>
+                </a>
+            </div>
+
+            <div class="nav-card">
+                <a href="settings.html">
+                    <h2>SETTINGS</h2>
+                    <p>App preferences</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

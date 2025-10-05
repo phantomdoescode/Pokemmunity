@@ -34,3 +34,7 @@ Let's catch them all, shall we?
 - Initial Code for Settings HTML added (Change from toggle option to drop-down option for simplicity).
 - Initial Code for Contacts HTML added.
 - CSS Updated (for Dropdown)
+
+### October 5, 2025
+- Debug Menu HTML added. (for quick navigation only [[will be removed before release]])
+- CSS Updated.

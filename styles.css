@@ -55,6 +55,18 @@ body {
   text-align: center;
 }
 
+/* Sidebar for main pages */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100vh;
+  background-color: #2e3a4d;
+  z-index: 10;
+}
+
 /* Logo */
 
 .logo {
@@ -167,4 +179,52 @@ a:hover {
   margin-top: 80px;
   font-size: 24px;
   text-align: center;
+}
+
+/* Cards for other pages */
+
+.card {
+  background-color: #2e3a4d;
+  border-radius: 25px;
+  padding: 30px;
+  border: 1px solid #e5e5e5;
+}
+
+/* Status badges */
+
+.badge {
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.status-online {
+  background-color: #67ff6a;
+  color: #000;
+}
+
+.status-offline {
+  background-color: #ff3f3f;
+  color: #000;
+}
+
+.status-requested {
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+/* Avatar */
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.avatar-lg {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }

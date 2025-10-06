@@ -38,3 +38,6 @@ Let's catch them all, shall we?
 ### October 5, 2025
 - Debug Menu HTML added. (for quick navigation only [[will be removed before release]])
 - CSS Updated.
+
+### October 6, 2025
+- Images/Icons inserted to some pages.

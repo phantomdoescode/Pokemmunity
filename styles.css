@@ -1,5 +1,7 @@
 /* Pokemmunity CSS Stylesheet */
 
+/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,8 @@ body {
   color: #e5e5e5;
   min-height: 100vh;
 }
+
+/* Main Container */
 
 .container {
   max-width: 1440px;
@@ -67,6 +71,46 @@ body {
   z-index: 10;
 }
 
+/* Sidebar Logo */
+
+.sidebar-logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  width: 60px;
+  height: auto;
+}
+
+.sidebar-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Sidebar Icons */
+
+.sidebar-icon {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.sidebar-icon:hover {
+  opacity: 0.7;
+}
+
+.sidebar-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding-bottom: 4px;
+}
+
 /* Logo */
 
 .logo {
@@ -98,7 +142,8 @@ body {
 input[type="text"],
 input[type="email"],
 input[type="password"],
-textarea {
+textarea,
+select {
   width: 100%;
   padding: 20px;
   background-color: #e5e5e5;

@@ -44,10 +44,10 @@ Let's catch them all, shall we?
 - Initial Code for Home Page HTML added.
 
 ### October 7, 2025
-- Updated home.html
-- Updated contacts.html
-- Updated badges.html
-- Updated trainercard.html
-- Updated settings.html
+- Updated code for home.html
+- Updated code for contacts.html
+- Updated code for badges.html
+- Updated code for trainercard.html
+- Updated code for settings.html
 - CSS Updated (Sidebar)
 - Inserted logos and icons in Sidebar

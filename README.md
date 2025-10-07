@@ -41,6 +41,7 @@ Let's catch them all, shall we?
 
 ### October 6, 2025
 - Images/Icons inserted to some pages.
+- Initial Code for Home Page HTML added.
 
 ### October 7, 2025
 - Updated home.html

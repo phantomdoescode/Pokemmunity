@@ -41,3 +41,12 @@ Let's catch them all, shall we?
 
 ### October 6, 2025
 - Images/Icons inserted to some pages.
+
+### October 7, 2025
+- Updated home.html
+- Updated contacts.html
+- Updated badges.html
+- Updated trainercard.html
+- Updated settings.html
+- CSS Updated (Sidebar)
+- Inserted logos and icons in Sidebar

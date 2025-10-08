@@ -51,3 +51,8 @@ Let's catch them all, shall we?
 - Updated code for settings.html
 - CSS Updated (Sidebar)
 - Inserted logos and icons in Sidebar
+
+### October 8, 2025
+- Updated code for register.html
+- Updated code for login.html
+- Revisioning through Figma Design.

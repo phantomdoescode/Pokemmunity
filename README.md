@@ -56,3 +56,6 @@ Let's catch them all, shall we?
 - Updated code for register.html
 - Updated code for login.html
 - Revisioning through Figma Design.
+
+### October 8, 2025
+- BREAK from Coding. Will return tomorrow.

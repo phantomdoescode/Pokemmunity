@@ -58,4 +58,5 @@ Let's catch them all, shall we?
 - Revisioning through Figma Design.
 
 ### October 8, 2025
-- BREAK from Coding. Will return tomorrow.
+- Updated Initial Code for home.html.
+- Fixed logo elements for home.html.

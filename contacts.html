@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts - Pokemmunity</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="container bg-primary">
@@ -23,7 +23,7 @@
                 <a href="badges.html"><img src="images/badges_false.png" alt="Badges"></a>
             </div>
             <div class="sidebar-icon" style="top: 340px;">
-                <a href="trainercard.html"><img src="images/card_false.png" alt="Profile"></a>
+                <a href="trainer-card.html"><img src="images/card_false.png" alt="Profile"></a>
             </div>
             <div class="sidebar-icon" style="top: 410px;">
                 <a href="settings.html"><img src="images/settings_false.png" alt="Settings"></a>
@@ -31,146 +31,145 @@
         </div>
 
         <!-- Main Content -->
-        <div style="position: relative; margin-left: 100px; padding: 50px 240px;">
-            <h1 class="font-norwester" style="font-size: 20px; margin-bottom: 20px;">CONTACTS</h1>
+        <div class="main-content">
+            <h1 class="font-norwester page-title">CONTACTS</h1>
 
             <!-- Tab Navigation -->
-            <div style="display: flex; gap: 10px; margin-bottom: 30px;">
-                <button class="btn btn-primary" style="height: 26px; padding: 6px 20px; font-size: 15px;">TRAINER LIST</button>
-                <button class="btn btn-neutral" style="height: 26px; padding: 6px 20px; font-size: 15px; color: #000;">CHAT CONVERSATIONS</button>
-                <button class="btn btn-neutral" style="height: 26px; padding: 6px 20px; font-size: 15px; color: #000;">CREATE COMMUNITY CHAT</button>
+            <div class="tab-navigation">
+                <button class="btn btn-primary tab-button">TRAINER LIST</button>
+                <button class="btn btn-neutral tab-button">CHAT CONVERSATIONS</button>
+                <button class="btn btn-neutral tab-button">CREATE COMMUNITY CHAT</button>
             </div>
 
             <!-- Search Bar -->
-            <input type="text" class="input-dark" placeholder="Search Trainer..." style="width: 945px; height: 45px; margin-bottom: 30px;">
+            <input type="text" class="input-dark contacts-search" placeholder="Search Trainer...">
 
             <!-- Trainers Section -->
-            <div style="display: flex; gap: 50px;">
+            <div class="contacts-grid">
                 <!-- Your Fellow Trainers -->
-                <div class="card" style="width: 445px; padding: 30px;">
-                    <h2 class="font-norwester" style="font-size: 20px; margin-bottom: 30px;">YOUR FELLOW TRAINERS</h2>
+                <div class="card contacts-column">
+                    <h2 class="font-norwester contacts-column-title">YOUR FELLOW TRAINERS</h2>
                     
-                    <div style="display: flex; flex-direction: column; gap: 15px;">
-                        <!-- Trainer Item -->
+                    <div class="contact-list">
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">SOPH</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@skziah</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">SOPH</p>
+                                <p class="font-calps-extralight contact-username">@skziah</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">PrincePami</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@ikinuhapkmn</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">PrincePami</p>
+                                <p class="font-calps-extralight contact-username">@ikinuhapkmn</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">emsss1</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@emmeor1</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">emsss1</p>
+                                <p class="font-calps-extralight contact-username">@emmeor1</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">Luminous</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@makuhitari</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">Luminous</p>
+                                <p class="font-calps-extralight contact-username">@makuhitari</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">Matthew</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@berdeisgreen</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">Matthew</p>
+                                <p class="font-calps-extralight contact-username">@berdeisgreen</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">VaporeonLVR</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@lvl100copypasta</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">VaporeonLVR</p>
+                                <p class="font-calps-extralight contact-username">@lvl100copypasta</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
                     </div>
 
-                    <a href="#" class="font-calps-extralight text-underline" style="font-size: 15px; display: block; margin-top: 25px; text-align: center;">See more</a>
+                    <a href="#" class="font-calps-extralight text-underline contact-link">See more</a>
                 </div>
 
                 <!-- Other Trainers -->
-                <div class="card" style="width: 445px; padding: 30px;">
-                    <h2 class="font-norwester" style="font-size: 20px; margin-bottom: 30px;">MORE TRAINERS</h2>
+                <div class="card contacts-column">
+                    <h2 class="font-norwester contacts-column-title">MORE TRAINERS</h2>
                     
-                    <div style="display: flex; flex-direction: column; gap: 15px;">
+                    <div class="contact-list">
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">KingChamp</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@reigningsup</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">KingChamp</p>
+                                <p class="font-calps-extralight contact-username">@reigningsup</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">Sean ON</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@keifferfire</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">Sean ON</p>
+                                <p class="font-calps-extralight contact-username">@keifferfire</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">Larry</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@normaltypegym</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">Larry</p>
+                                <p class="font-calps-extralight contact-username">@normaltypegym</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">PikachuFanOne</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@thunderstone</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">PikachuFanOne</p>
+                                <p class="font-calps-extralight contact-username">@thunderstone</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">AshKetchup</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@pokemonmstr10</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">AshKetchup</p>
+                                <p class="font-calps-extralight contact-username">@pokemonmstr10</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
 
                         <div class="contact-item">
-                            <img src="" alt="Avatar" class="avatar" style="margin-right: 15px;">
-                            <div style="flex: 1;">
-                                <p class="font-calps-black" style="font-size: 15px; margin-bottom: 2px;">Admin Poke Ball</p>
-                                <p class="font-calps-extralight" style="font-size: 10px;">@someguynamedadmin</p>
+                            <img src="" alt="Avatar" class="avatar contact-avatar">
+                            <div class="contact-info">
+                                <p class="font-calps-black contact-name">Admin Poke Ball</p>
+                                <p class="font-calps-extralight contact-username">@someguynamedadmin</p>
                             </div>
-                            <button class="btn badge status-offline" style="height: 26px; padding: 4px 12px; font-size: 12px;">OFFLINE</button>
+                            <button class="btn badge status-offline contact-status">OFFLINE</button>
                         </div>
                     </div>
 
-                    <a href="#" class="font-calps-extralight text-underline" style="font-size: 15px; display: block; margin-top: 25px; text-align: center;">See more</a>
+                    <a href="#" class="font-calps-extralight text-underline contact-link">See more</a>
                 </div>
             </div>
         </div>

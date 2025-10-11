@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trainer Card - Pokemmunity</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="container bg-primary">
@@ -23,7 +23,7 @@
                 <a href="badges.html"><img src="images/badges_false.png" alt="Badges"></a>
             </div>
             <div class="sidebar-icon" style="top: 340px;">
-                <a href="trainercard.html"><img src="images/card_true.png" alt="Profile"></a>
+                <a href="trainer-card.html"><img src="images/card_true.png" alt="Profile"></a>
             </div>
             <div class="sidebar-icon" style="top: 410px;">
                 <a href="settings.html"><img src="images/settings_false.png" alt="Settings"></a>
@@ -31,103 +31,105 @@
         </div>
 
         <!-- Main Content -->
-        <div style="position: relative; margin-left: 100px; padding: 50px 240px;">
-            <h1 class="font-norwester" style="font-size: 20px; margin-bottom: 10px;">TRAINER CARD</h1>
-            <p class="font-calps-regular text-shadow" style="font-size: 15px; margin-bottom: 30px;">
-                Customize your trainer profile and showcase your achievements.
-            </p>
+        <div class="main-content">
+            <div class="page-header">
+                <h1 class="font-norwester page-title">TRAINER CARD</h1>
+                <p class="font-calps-regular text-shadow page-subtitle">
+                    Customize your trainer profile and showcase your achievements.
+                </p>
+            </div>
 
-            <div style="display: flex; gap: 30px;">
+            <div class="trainer-card-layout">
                 <!-- Trainer Card Preview -->
                 <div>
-                    <div class="card-primary" style="width: 940px; height: 671px; position: relative; padding: 20px;">
+                    <div class="card-primary">
                         <!-- Profile Section -->
-                        <div class="card card-border" style="width: 416px; height: 100px; display: flex; align-items: center; padding: 15px; gap: 15px;">
+                        <div class="card card-border trainer-profile-card">
                             <img src="" alt="Avatar" class="avatar-lg">
-                            <div style="flex: 1;">
-                                <h3 class="font-calps-black" style="font-size: 24px; margin-bottom: 5px;">Phantom</h3>
-                                <p class="font-calps-extralight" style="font-size: 10px; margin-bottom: 8px;">@PhanDoesGame</p>
-                                <p class="font-calps-regular" style="font-size: 12px;">I like Pokémon! Hence, my website. ;D</p>
+                            <div class="trainer-profile-info">
+                                <h3 class="font-calps-black trainer-profile-name">Phantom</h3>
+                                <p class="font-calps-extralight trainer-profile-username">@PhanDoesGame</p>
+                                <p class="font-calps-regular trainer-profile-bio">I like Pokémon! Hence, my website. ;D</p>
                             </div>
-                            <button class="btn badge status-online" style="height: 26px; padding: 4px 12px; font-size: 12px;">ONLINE</button>
+                            <button class="btn badge status-online contact-status">ONLINE</button>
                         </div>
 
                         <!-- Featured Badges -->
-                        <div class="card card-border" style="width: 416px; height: 241px; margin-top: 15px; padding: 20px;">
-                            <h3 class="font-norwester" style="font-size: 20px; margin-bottom: 20px;">FEATURED BADGES</h3>
-                            <div style="display: flex; gap: 15px; justify-content: center;">
-                                <img src="" alt="Badge" style="width: 53px; height: 53px;">
-                                <img src="" alt="Badge" style="width: 53px; height: 53px;">
-                                <img src="" alt="Badge" style="width: 53px; height: 53px;">
-                                <img src="" alt="Badge" style="width: 53px; height: 53px;">
+                        <div class="card card-border featured-badges-card">
+                            <h3 class="font-norwester featured-badges-title">FEATURED BADGES</h3>
+                            <div class="badges-row">
+                                <img src="" alt="Badge" class="badge-slot">
+                                <img src="" alt="Badge" class="badge-slot">
+                                <img src="" alt="Badge" class="badge-slot">
+                                <img src="" alt="Badge" class="badge-slot">
                             </div>
-                            <div style="display: flex; gap: 15px; justify-content: center; margin-top: 15px;">
-                                <p class="font-norwester" style="font-size: 20px;">---</p>
-                                <p class="font-norwester" style="font-size: 20px;">---</p>
-                                <p class="font-norwester" style="font-size: 20px;">---</p>
-                                <p class="font-norwester" style="font-size: 20px;">---</p>
+                            <div class="badge-placeholder">
+                                <p class="font-norwester placeholder-text">---</p>
+                                <p class="font-norwester placeholder-text">---</p>
+                                <p class="font-norwester placeholder-text">---</p>
+                                <p class="font-norwester placeholder-text">---</p>
                             </div>
                         </div>
 
                         <!-- Stats -->
-                        <div class="card card-border" style="width: 416px; height: 120px; margin-top: 15px; padding: 20px; display: flex; justify-content: space-around; align-items: center;">
-                            <div style="text-align: center;">
-                                <p class="font-norwester" style="font-size: 32px; margin-bottom: 5px;">234</p>
-                                <p class="font-calps-regular" style="font-size: 16px;">Trainer Caught</p>
+                        <div class="card card-border stats-card">
+                            <div class="stat-item">
+                                <p class="font-norwester stat-number">234</p>
+                                <p class="font-calps-regular stat-label">Trainer Caught</p>
                             </div>
-                            <div style="text-align: center;">
-                                <p class="font-norwester" style="font-size: 32px; margin-bottom: 5px;">13</p>
-                                <p class="font-calps-regular" style="font-size: 16px;">Communities Joined</p>
+                            <div class="stat-item">
+                                <p class="font-norwester stat-number">13</p>
+                                <p class="font-calps-regular stat-label">Communities Joined</p>
                             </div>
                         </div>
 
                         <!-- Logo Watermark -->
-                        <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); width: 282px; height: 91px;">
-                            <img src="" alt="Logo" style="opacity: 0.5;">
+                        <div class="card-watermark">
+                            <img src="" alt="Logo" class="watermark-img">
                         </div>
                     </div>
 
                     <!-- See Posts Button -->
-                    <div style="text-align: center; margin-top: 20px;">
-                        <button class="btn btn-primary" style="width: 132px; height: 32px; padding: 6px 20px; font-size: 15px;">SEE POSTS</button>
+                    <div class="see-posts-wrapper">
+                        <button class="btn btn-primary see-posts-button">SEE POSTS</button>
                     </div>
                 </div>
 
                 <!-- Customize Profile -->
-                <div class="card card-border" style="width: 473px; padding: 30px;">
-                    <h2 class="font-norwester" style="font-size: 20px; margin-bottom: 25px;">CUSTOMIZE PROFILE</h2>
+                <div class="card card-border customize-card">
+                    <h2 class="font-norwester customize-title">CUSTOMIZE PROFILE</h2>
 
                     <!-- Avatar Section -->
-                    <div style="margin-bottom: 25px;">
-                        <label class="font-calps-black" style="font-size: 14px; display: block; margin-bottom: 10px;">Avatar</label>
-                        <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="form-section">
+                        <label class="font-calps-black form-label">Avatar</label>
+                        <div class="avatar-row">
                             <img src="" alt="Avatar" class="avatar-lg">
-                            <button class="btn btn-neutral" style="height: 26px; padding: 4px 15px; font-size: 15px; color: #000;">Change Avatar</button>
+                            <button class="btn btn-neutral change-avatar-button">Change Avatar</button>
                         </div>
                     </div>
 
                     <!-- Display Name -->
-                    <div style="margin-bottom: 25px;">
-                        <label class="font-calps-black" style="font-size: 14px; display: block; margin-bottom: 10px;">Display Name</label>
-                        <input type="text" class="input-dark" value="Phantom" style="height: 45px;">
+                    <div class="form-section">
+                        <label class="font-calps-black form-label">Display Name</label>
+                        <input type="text" class="input-dark settings-input" value="Phantom">
                     </div>
 
                     <!-- Photo Card -->
-                    <div style="margin-bottom: 25px;">
-                        <label class="font-calps-black" style="font-size: 14px; display: block; margin-bottom: 10px;">Add Photo Card (Displayed for other trainers to this part of the card)</label>
-                        <div class="input-dark" style="height: 45px; background-color: #000; display: flex; align-items: center; justify-content: center; cursor: pointer;">
-                            <span class="font-calps-black" style="font-size: 14px;">+ Add Photo</span>
+                    <div class="form-section">
+                        <label class="font-calps-black form-label">Add Photo Card (Displayed for other trainers to this part of the card)</label>
+                        <div class="input-dark photo-upload">
+                            <span class="font-calps-black upload-text">+ Add Photo</span>
                         </div>
                     </div>
 
                     <!-- Bio -->
-                    <div style="margin-bottom: 25px;">
-                        <label class="font-calps-black" style="font-size: 14px; display: block; margin-bottom: 10px;">Bio</label>
-                        <textarea class="input-dark" style="height: 189px; resize: none; padding: 15px; font-family: inherit;">I like Pokémon! Hence, my website. ;D</textarea>
+                    <div class="form-section">
+                        <label class="font-calps-black form-label">Bio</label>
+                        <textarea class="input-dark bio-textarea">I like Pokémon! Hence, my website. ;D</textarea>
                     </div>
 
                     <!-- Save Button -->
-                    <button class="btn btn-primary" style="width: 132px; height: 32px; padding: 6px 20px; font-size: 15px;">SAVE CHANGES</button>
+                    <button class="btn btn-primary save-button">SAVE CHANGES</button>
                 </div>
             </div>
         </div>

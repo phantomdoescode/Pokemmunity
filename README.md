@@ -69,4 +69,5 @@ Let's catch them all, shall we?
 - Inline CSS removed in each HTML file. Converted all to External CSS only.
 - Updated all of HTML files.
 - Fixed some issues starting at home.html
+- Moved/Created the styles.css to a styles folder.
 - All remaining files will be continued on October 12.

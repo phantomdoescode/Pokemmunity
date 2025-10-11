@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Badges - Pokemmunity</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="container bg-primary">
@@ -23,7 +23,7 @@
                 <a href="badges.html"><img src="images/badges_true.png" alt="Badges"></a>
             </div>
             <div class="sidebar-icon" style="top: 340px;">
-                <a href="trainercard.html"><img src="images/card_false.png" alt="Profile"></a>
+                <a href="trainer-card.html"><img src="images/card_false.png" alt="Profile"></a>
             </div>
             <div class="sidebar-icon" style="top: 410px;">
                 <a href="settings.html"><img src="images/settings_false.png" alt="Settings"></a>
@@ -31,92 +31,94 @@
         </div>
 
         <!-- Main Content -->
-        <div style="position: relative; margin-left: 100px; padding: 50px 240px;">
-            <h1 class="font-norwester" style="font-size: 20px; margin-bottom: 10px;">BADGES</h1>
-            <p class="font-calps-regular text-shadow" style="font-size: 15px; margin-bottom: 30px;">
-                Track your achievements and progress in Pokémmunity.
-            </p>
+        <div class="main-content">
+            <div class="page-header">
+                <h1 class="font-norwester page-title">BADGES</h1>
+                <p class="font-calps-regular text-shadow page-subtitle">
+                    Track your achievements and progress in Pokémmunity.
+                </p>
+            </div>
 
             <!-- Badges Grid -->
-            <div style="display: flex; gap: 30px; margin-bottom: 30px;">
+            <div class="badges-grid">
                 <!-- Earned Badges Column -->
                 <div>
-                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 20px;">Earned Badges</h2>
+                    <h2 class="font-calps-black badges-column-title">Earned Badges</h2>
                     
                     <!-- Starter Badge -->
-                    <div class="card" style="width: 473px; height: 100px; background-color: #f6cf57; border: 1px solid #e5e5e5; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
+                    <div class="card earned-badge">
                         <img src="" alt="Badge" class="badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; color: #000; margin-bottom: 5px;">STARTER BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px; color: #000;">Register an account</p>
+                            <h3 class="font-norwester badge-title">STARTER BADGE</h3>
+                            <p class="font-calps-light badge-description">Register an account</p>
                         </div>
                     </div>
 
                     <!-- Trainer Badge -->
-                    <div class="card" style="width: 473px; height: 100px; background-color: #f6cf57; border: 1px solid #e5e5e5; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
+                    <div class="card earned-badge">
                         <img src="" alt="Badge" class="badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; color: #000; margin-bottom: 5px;">TRAINER BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px; color: #000;">Successfully login your account</p>
+                            <h3 class="font-norwester badge-title">TRAINER BADGE</h3>
+                            <p class="font-calps-light badge-description">Successfully login your account</p>
                         </div>
                     </div>
 
                     <!-- Post Badge -->
-                    <div class="card" style="width: 473px; height: 100px; background-color: #f6cf57; border: 1px solid #e5e5e5; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
+                    <div class="card earned-badge">
                         <img src="" alt="Badge" class="badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; color: #000; margin-bottom: 5px;">POST BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px; color: #000;">Post something to your feed</p>
+                            <h3 class="font-norwester badge-title">POST BADGE</h3>
+                            <p class="font-calps-light badge-description">Post something to your feed</p>
                         </div>
                     </div>
 
                     <!-- Catcher Badge -->
-                    <div class="card" style="width: 473px; height: 100px; background-color: #f6cf57; border: 1px solid #e5e5e5; display: flex; align-items: center; padding: 20px; gap: 20px;">
+                    <div class="card earned-badge">
                         <img src="" alt="Badge" class="badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; color: #000; margin-bottom: 5px;">CATCHER BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px; color: #000;">Catch up a trainer/Add you as their friend</p>
+                            <h3 class="font-norwester badge-title">CATCHER BADGE</h3>
+                            <p class="font-calps-light badge-description">Catch up a trainer/Add you as their friend</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Other Unlockable Badges Column -->
                 <div>
-                    <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 20px;">Other Unlockable Badges</h2>
+                    <h2 class="font-calps-black badges-column-title">Other Unlockable Badges</h2>
                     
                     <!-- Elite Badge -->
-                    <div class="card card-border" style="width: 473px; height: 100px; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
-                        <img src="" alt="Badge" class="badge-icon" style="opacity: 0.5;">
+                    <div class="card card-border locked-badge">
+                        <img src="" alt="Badge" class="badge-icon locked-badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; margin-bottom: 5px;">ELITE BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px;">Catch up to 250 trainers</p>
+                            <h3 class="font-norwester locked-badge-title">ELITE BADGE</h3>
+                            <p class="font-calps-light locked-badge-description">Catch up to 250 trainers</p>
                         </div>
                     </div>
 
                     <!-- Champion Badge -->
-                    <div class="card card-border" style="width: 473px; height: 100px; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
-                        <img src="" alt="Badge" class="badge-icon" style="opacity: 0.5;">
+                    <div class="card card-border locked-badge">
+                        <img src="" alt="Badge" class="badge-icon locked-badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; margin-bottom: 5px;">CHAMPION BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px;">Catch up to 500 trainers</p>
+                            <h3 class="font-norwester locked-badge-title">CHAMPION BADGE</h3>
+                            <p class="font-calps-light locked-badge-description">Catch up to 500 trainers</p>
                         </div>
                     </div>
 
                     <!-- Master Badge -->
-                    <div class="card card-border" style="width: 473px; height: 100px; margin-bottom: 15px; display: flex; align-items: center; padding: 20px; gap: 20px;">
-                        <img src="" alt="Badge" class="badge-icon" style="opacity: 0.5;">
+                    <div class="card card-border locked-badge">
+                        <img src="" alt="Badge" class="badge-icon locked-badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; margin-bottom: 5px;">MASTER BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px;">Catch up to 750 trainers</p>
+                            <h3 class="font-norwester locked-badge-title">MASTER BADGE</h3>
+                            <p class="font-calps-light locked-badge-description">Catch up to 750 trainers</p>
                         </div>
                     </div>
 
                     <!-- Legend Badge -->
-                    <div class="card card-border" style="width: 473px; height: 100px; display: flex; align-items: center; padding: 20px; gap: 20px;">
-                        <img src="" alt="Badge" class="badge-icon" style="opacity: 0.5;">
+                    <div class="card card-border locked-badge">
+                        <img src="" alt="Badge" class="badge-icon locked-badge-icon">
                         <div>
-                            <h3 class="font-norwester" style="font-size: 20px; margin-bottom: 5px;">LEGEND BADGE</h3>
-                            <p class="font-calps-light" style="font-size: 20px;">Catch up to 1000 trainers</p>
+                            <h3 class="font-norwester locked-badge-title">LEGEND BADGE</h3>
+                            <p class="font-calps-light locked-badge-description">Catch up to 1000 trainers</p>
                         </div>
                     </div>
                 </div>
@@ -124,15 +126,15 @@
 
             <!-- Progress Overview -->
             <div>
-                <h2 class="font-calps-black" style="font-size: 20px; margin-bottom: 20px;">Progress Overview</h2>
+                <h2 class="font-calps-black progress-section-title">Progress Overview</h2>
                 
-                <div style="display: flex; gap: 30px;">
-                    <div class="card card-border" style="width: 416px; height: 129px; display: flex; align-items: center; justify-content: center;">
-                        <h3 class="font-norwester" style="font-size: 32px;">4 BADGES EARNED</h3>
+                <div class="progress-grid">
+                    <div class="card card-border progress-card">
+                        <h3 class="font-norwester progress-text">4 BADGES EARNED</h3>
                     </div>
 
-                    <div class="card card-border" style="width: 416px; height: 129px; display: flex; align-items: center; justify-content: center;">
-                        <h3 class="font-norwester" style="font-size: 32px;">NEXT BADGE: ELITE</h3>
+                    <div class="card card-border progress-card">
+                        <h3 class="font-norwester progress-text">NEXT BADGE: ELITE</h3>
                     </div>
                 </div>
             </div>

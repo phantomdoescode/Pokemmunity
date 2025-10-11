@@ -63,3 +63,10 @@ Let's catch them all, shall we?
 
 ### October 10, 2025
 - Break from coding.
+- Planning for major update.
+
+### October 11-12, 2025 [MAJOR UPDATE]
+- Inline CSS removed in each HTML file. Converted all to External CSS only.
+- Updated all of HTML files.
+- Fixed some issues starting at home.html
+- All remaining files will be continued on October 12.

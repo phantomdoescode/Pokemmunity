@@ -70,4 +70,4 @@ Let's catch them all, shall we?
 - Updated all of HTML files.
 - Fixed some issues starting at home.html
 - Moved/Created the styles.css to a styles folder.
-- All remaining files will be continued on October 12.
+- All remaining files will be continued on October 13.

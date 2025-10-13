@@ -71,3 +71,7 @@ Let's catch them all, shall we?
 - Fixed some issues starting at home.html
 - Moved/Created the styles.css to a styles folder.
 - All remaining files will be continued on October 13.
+
+### October 13, 2025
+- Images finalized
+- CSS updated.

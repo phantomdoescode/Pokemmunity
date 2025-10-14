@@ -79,7 +79,8 @@ Let's catch them all, shall we?
 ### October 14, 2025
 - Avatar images added.
 - Other necessary images added.
-- Fonts folder added (Calps and Norwester).
+- Folder for Fonts added.
+- Fonts added to CSS (Calps and Norwester).
 - CSS updated.
 - login.html and register.html fixed.
 - home.html extended and fixed layouting.

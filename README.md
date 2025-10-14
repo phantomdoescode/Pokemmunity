@@ -82,6 +82,6 @@ Let's catch them all, shall we?
 - Fonts folder added (Calps and Norwester).
 - CSS updated.
 - login.html and register.html fixed.
-- home.html extended.
+- home.html extended and fixed layouting.
 - contacts.html fixed.
 - badges.html fixed and added badge images. 

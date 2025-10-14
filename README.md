@@ -75,3 +75,13 @@ Let's catch them all, shall we?
 ### October 13, 2025
 - Images finalized
 - CSS updated.
+
+### October 14, 2025
+- Avatar images added.
+- Other necessary images added.
+- Fonts folder added (Calps and Norwester).
+- CSS updated.
+- login.html and register.html fixed.
+- home.html extended.
+- contacts.html fixed.
+- badges.html fixed and added badge images. 

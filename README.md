@@ -85,4 +85,16 @@ Let's catch them all, shall we?
 - login.html and register.html fixed.
 - home.html extended and fixed layouting.
 - contacts.html fixed.
-- badges.html fixed and added badge images. 
+- badges.html fixed and added badge images.
+
+### October 15, 2025
+- Other necessary images added. (Home Page and Trainer Card images).
+- CSS updated (for Home, Contacts, Badges, and Trainer Card).
+- login.html and register.html set text decoration to none with Inline CSS.
+- home.html other images added (Like, Comment, Share, Live, Photo and Mood).
+- contacts.html buttons fixed and expanded container.
+- badges.html fixed.
+- trainer-card.html major fix with proper card formatting and added images for badges and avatar.
+- settings.html minor tweaks due to CSS.
+- Planning for Viewports and JS (mostly sounds and transitions).
+- Viewports and JS implementation to be done on October 16-17.

@@ -39,29 +39,30 @@
                 </p>
             </div>
 
-            <div class="trainer-card-layout">
-                <!-- Trainer Card Preview -->
-                <div>
-                    <div class="card-primary">
+            <!-- Trainer Card Container -->
+            <div class="trainer-card-container">
+                <div class="trainer-card-layout">
+                    <!-- Left Side: Card Preview -->
+                    <div class="trainer-card-left">
                         <!-- Profile Section -->
-                        <div class="card card-border trainer-profile-card">
-                            <img src="" alt="Avatar" class="avatar-lg">
+                        <div class="trainer-profile-card">
+                            <img src="images/avatar.png" alt="Avatar" class="avatar-lg">
                             <div class="trainer-profile-info">
                                 <h3 class="font-calps-black trainer-profile-name">Phantom</h3>
                                 <p class="font-calps-extralight trainer-profile-username">@PhanDoesGame</p>
                                 <p class="font-calps-regular trainer-profile-bio">I like Pokémon! Hence, my website. ;D</p>
                             </div>
-                            <button class="btn badge status-online contact-status">ONLINE</button>
+                            <span class="online-badge trainer-online-badge">ONLINE</span>
                         </div>
 
                         <!-- Featured Badges -->
-                        <div class="card card-border featured-badges-card">
+                        <div class="featured-badges-card">
                             <h3 class="font-norwester featured-badges-title">FEATURED BADGES</h3>
                             <div class="badges-row">
-                                <img src="" alt="Badge" class="badge-slot">
-                                <img src="" alt="Badge" class="badge-slot">
-                                <img src="" alt="Badge" class="badge-slot">
-                                <img src="" alt="Badge" class="badge-slot">
+                                <img src="images/starter_badge.png" alt="Badge" class="badge-slot">
+                                <img src="images/trainer_badge.png" alt="Badge" class="badge-slot">
+                                <img src="images/post_badge.png" alt="Badge" class="badge-slot">
+                                <img src="images/catcher_badge.png" alt="Badge" class="badge-slot">
                             </div>
                             <div class="badge-placeholder">
                                 <p class="font-norwester placeholder-text">---</p>
@@ -72,7 +73,7 @@
                         </div>
 
                         <!-- Stats -->
-                        <div class="card card-border stats-card">
+                        <div class="stats-card">
                             <div class="stat-item">
                                 <p class="font-norwester stat-number">234</p>
                                 <p class="font-calps-regular stat-label">Trainer Caught</p>
@@ -85,52 +86,52 @@
 
                         <!-- Logo Watermark -->
                         <div class="card-watermark">
-                            <img src="" alt="Logo" class="watermark-img">
+                            <img src="images/logo2.png" alt="Pokemmunity Logo" class="watermark-img">
                         </div>
                     </div>
 
-                    <!-- See Posts Button -->
-                    <div class="see-posts-wrapper">
-                        <button class="btn btn-primary see-posts-button">SEE POSTS</button>
+                    <!-- Right Side: Customize Profile -->
+                    <div class="trainer-card-right">
+                        <h2 class="font-norwester customize-title">CUSTOMIZE PROFILE</h2>
+
+                        <!-- Avatar Section -->
+                        <div class="form-section">
+                            <label class="font-calps-black form-label">Avatar</label>
+                            <div class="avatar-row">
+                                <img src="images/avatar.png" alt="Avatar" class="avatar-lg">
+                                <button class="btn btn-neutral change-avatar-button">Change Avatar</button>
+                            </div>
+                        </div>
+
+                        <!-- Display Name -->
+                        <div class="form-section">
+                            <label class="font-calps-black form-label">Display Name</label>
+                            <input type="text" class="input-dark settings-input" value="Phantom">
+                        </div>
+
+                        <!-- Photo Card -->
+                        <div class="form-section">
+                            <label class="font-calps-black form-label">Add Photo Card (Displayed for other trainers to this part of the card)</label>
+                            <div class="input-dark photo-upload">
+                                <span class="font-calps-black upload-text">+ Add Photo</span>
+                            </div>
+                        </div>
+
+                        <!-- Bio -->
+                        <div class="form-section">
+                            <label class="font-calps-black form-label">Bio</label>
+                            <textarea class="input-dark bio-textarea">I like Pokémon! Hence, my website. ;D</textarea>
+                        </div>
+
+                        <!-- Save Button -->
+                        <button class="btn btn-primary save-button">SAVE CHANGES</button>
                     </div>
                 </div>
+            </div>
 
-                <!-- Customize Profile -->
-                <div class="card card-border customize-card">
-                    <h2 class="font-norwester customize-title">CUSTOMIZE PROFILE</h2>
-
-                    <!-- Avatar Section -->
-                    <div class="form-section">
-                        <label class="font-calps-black form-label">Avatar</label>
-                        <div class="avatar-row">
-                            <img src="" alt="Avatar" class="avatar-lg">
-                            <button class="btn btn-neutral change-avatar-button">Change Avatar</button>
-                        </div>
-                    </div>
-
-                    <!-- Display Name -->
-                    <div class="form-section">
-                        <label class="font-calps-black form-label">Display Name</label>
-                        <input type="text" class="input-dark settings-input" value="Phantom">
-                    </div>
-
-                    <!-- Photo Card -->
-                    <div class="form-section">
-                        <label class="font-calps-black form-label">Add Photo Card (Displayed for other trainers to this part of the card)</label>
-                        <div class="input-dark photo-upload">
-                            <span class="font-calps-black upload-text">+ Add Photo</span>
-                        </div>
-                    </div>
-
-                    <!-- Bio -->
-                    <div class="form-section">
-                        <label class="font-calps-black form-label">Bio</label>
-                        <textarea class="input-dark bio-textarea">I like Pokémon! Hence, my website. ;D</textarea>
-                    </div>
-
-                    <!-- Save Button -->
-                    <button class="btn btn-primary save-button">SAVE CHANGES</button>
-                </div>
+            <!-- See Posts Button -->
+            <div class="see-posts-wrapper">
+                <button class="btn btn-primary see-posts-button">SEE POSTS</button>
             </div>
         </div>
     </div>

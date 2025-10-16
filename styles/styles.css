@@ -656,7 +656,8 @@ body {
 .progress-grid {
   display: flex;
   gap: 30px;
-  margin-bottom: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .progress-card {
@@ -1228,4 +1229,493 @@ a:hover {
 .logo img {
   width: 100%;
   height: auto;
+}
+
+/* ========================================
+          TABLET RESPONSIVE STYLES
+   ======================================== */
+
+/* Tablet Landscape (1024px and below) */
+@media (max-width: 1024px) {
+  /* Reduce sidebar width */
+  .sidebar {
+    width: 80px;
+  }
+
+  .sidebar-logo {
+    width: 50px;
+  }
+
+  .sidebar-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Adjust main content margins */
+  .main-content {
+    margin-left: 80px;
+    padding: 40px 30px;
+  }
+
+  .home-main-content {
+    margin-left: 80px;
+    padding: 40px 30px;
+  }
+
+  /* Home page layout adjustments - HIDE SIDEBAR */
+  .home-layout {
+    gap: 0;
+  }
+
+  .home-sidebar {
+    display: none;
+  }
+
+  .home-feed {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* Settings grid - stack on tablet */
+  .settings-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .settings-card {
+    height: auto;
+  }
+
+  /* Badges grid - center and adjust */
+  .badges-grid {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .earned-badge,
+  .locked-badge {
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .progress-grid {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .progress-card {
+    width: 100%;
+    max-width: 550px;
+    height: 100px;
+  }
+
+  /* Trainer card - adjust layout */
+  .trainer-card-layout {
+    gap: 20px;
+  }
+
+  .trainer-card-right {
+    width: 280px;
+  }
+
+  /* Tab buttons - adjust sizing */
+  .tab-button {
+    padding: 10px 18px;
+    font-size: 12px;
+  }
+
+  /* Contacts grid */
+  .contacts-grid {
+    gap: 15px;
+  }
+
+  .contacts-container {
+    padding: 30px;
+  }
+}
+
+/* Tablet Portrait (768px and below) */
+@media (max-width: 768px) {
+  /* Further reduce sidebar */
+  .sidebar {
+    width: 70px;
+  }
+
+  .sidebar-logo {
+    width: 45px;
+    top: 15px;
+  }
+
+  .sidebar-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* Adjust main content */
+  .main-content {
+    margin-left: 70px;
+    padding: 30px 20px;
+  }
+
+  .home-main-content {
+    margin-left: 70px;
+    padding: 30px 20px;
+  }
+
+  /* Home page - hide sidebar completely */
+  .home-layout {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .home-sidebar {
+    display: none;
+  }
+
+  .home-feed {
+    width: 100%;
+  }
+
+  /* Page titles */
+  .page-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .page-subtitle {
+    font-size: 13px;
+  }
+
+  /* Header section */
+  .header-logo {
+    width: 160px;
+  }
+
+  .header-description {
+    font-size: 12px;
+  }
+
+  /* Create post section */
+  .create-post {
+    padding: 20px;
+  }
+
+  .create-post-actions {
+    padding-left: 0;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .post-action-text {
+    display: none;
+  }
+
+  .post-button {
+    margin-left: auto;
+  }
+
+  /* Post cards */
+  .post-card {
+    padding: 20px;
+  }
+
+  .post-image-container {
+    height: 250px;
+  }
+
+  /* Search inputs */
+  .search-input,
+  .contacts-search {
+    height: 44px;
+    font-size: 13px;
+  }
+
+  /* Trainer suggestions */
+  .suggestions-card {
+    padding: 20px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .trainer-name {
+    font-size: 14px;
+  }
+
+  .catch-button,
+  .requested-button {
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+
+  /* Tab navigation - stack on very small tablets */
+  .tab-navigation {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tab-button {
+    flex: 1 1 calc(50% - 5px);
+    min-width: 140px;
+  }
+
+  /* Contacts grid - single column on portrait */
+  .contacts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contacts-container {
+    padding: 25px;
+  }
+
+  .contacts-column-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .contact-item {
+    padding: 12px 15px;
+  }
+
+  /* Badges - stack columns and center */
+  .badges-grid {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .badges-grid > div {
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .badges-column-title {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .earned-badge,
+  .locked-badge {
+    height: auto;
+    min-height: 90px;
+    padding: 15px;
+  }
+
+  .badge-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .badge-title,
+  .locked-badge-title {
+    font-size: 16px;
+  }
+
+  .badge-description,
+  .locked-badge-description {
+    font-size: 16px;
+  }
+
+  /* Progress cards */
+  .progress-grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .progress-card {
+    height: auto;
+    min-height: 100px;
+    padding: 20px;
+  }
+
+  .progress-text {
+    font-size: 24px;
+  }
+
+  /* Trainer card - stack layout */
+  .trainer-card-container {
+    padding: 20px;
+  }
+
+  .trainer-card-layout {
+    flex-direction: column;
+  }
+
+  .trainer-card-right {
+    width: 100%;
+  }
+
+  .trainer-profile-card {
+    padding: 15px;
+  }
+
+  .trainer-profile-name {
+    font-size: 18px;
+  }
+
+  .featured-badges-card {
+    padding: 20px;
+  }
+
+  .badges-row {
+    gap: 15px;
+  }
+
+  .badge-slot {
+    width: 50px;
+    height: 50px;
+  }
+
+  .stats-card {
+    padding: 20px;
+  }
+
+  .stat-number {
+    font-size: 28px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .watermark-img {
+    width: 150px;
+  }
+
+  .see-posts-button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .customize-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .avatar-lg {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Settings page */
+  .settings-card {
+    padding: 25px;
+  }
+
+  .settings-card-title {
+    font-size: 18px;
+  }
+
+  .settings-label {
+    font-size: 14px;
+  }
+
+  .settings-description {
+    font-size: 10px;
+  }
+
+  .settings-select {
+    min-width: 100px;
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  /* Auth pages */
+  .auth-form {
+    padding: 30px 20px;
+    max-width: 500px;
+  }
+
+  .logo h1 {
+    font-size: 36px !important;
+  }
+
+  .form-label {
+    font-size: 22px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+
+  .btn-primary {
+    max-width: 100%;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
+  .register-link {
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  .forgot-password {
+    font-size: 16px;
+  }
+}
+
+/* Small Tablet (650px and below) */
+@media (max-width: 650px) {
+  /* Further reduce sidebar for very small tablets */
+  .sidebar {
+    width: 60px;
+  }
+
+  .sidebar-logo {
+    width: 40px;
+  }
+
+  .sidebar-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .main-content {
+    margin-left: 60px;
+    padding: 25px 15px;
+  }
+
+  .home-main-content {
+    margin-left: 60px;
+    padding: 25px 15px;
+  }
+
+  /* Tab buttons - full width stacking */
+  .tab-button {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  /* Cards */
+  .card,
+  .card-border {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  /* Smaller text on very small screens */
+  .page-title {
+    font-size: 18px;
+  }
+
+  .contacts-column-title,
+  .badges-column-title {
+    font-size: 16px;
+  }
 }

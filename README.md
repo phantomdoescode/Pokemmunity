@@ -98,3 +98,8 @@ Let's catch them all, shall we?
 - settings.html minor tweaks due to CSS.
 - Planning for Viewports and JS (mostly sounds and transitions).
 - Viewports and JS implementation to be done on October 16-17.
+
+### October 16, 2025
+- Tablet viewport added via CSS.
+- Mobile viewport currently implementing.
+- JS Started.

@@ -1,134 +1,228 @@
-<!-- THIS FILE IS FOR DEBUGGING TO SEE IF ALL PAGES ARE NAVIGATING TO ANOTHER WEB PAGE-->
-<!-- Index -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemmunity - Page Debug Menu</title>
+    <title>Pokemmunity Debug Navigation</title>
     <link rel="stylesheet" href="styles/styles.css">
     <style>
-        .nav-page {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 40px;
-        }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #1b2735;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
 
-        .nav-logo {
-            width: 300px;
-            margin-bottom: 40px;
-        }
+    .logo {
+        margin-top: 40px;
+    }
 
-        .nav-title {
-            font-size: 36px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+    .nav-logo {
+        width: 180px;
+        margin-bottom: 20px;
+    }
 
-        .nav-subtitle {
-            font-size: 18px;
-            margin-bottom: 50px;
-            text-align: center;
+    h1 {
+        color: #f6cf57;
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .nav-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        width: 90%;
+        max-width: 900px;
+    }
+
+    .nav-card {
+        background-color: #2e3a4d;
+        border-radius: 16px;
+        padding: 25px 15px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-card:hover {
+        background-color: #3b4a61;
+        transform: translateY(-8px);
+        box-shadow: 0 4px 15px rgba(246, 207, 87, 0.2);
+    }
+
+    .nav-card a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+    }
+
+    .nav-card a:hover h2 {
+        color: #f6cf57;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.3rem;
+        color: #f6cf57;
+    }
+
+    p {
+        font-size: 0.9rem;
+        color: #d0d3d8;
+        margin-top: 8px;
+    }
+
+    footer {
+        margin-top: 50px;
+        color: #999;
+    }
+
+    footer a {
+        color: #f6cf57;
+        text-decoration: none;
+    }
+
+    /* --- Tablet (≤900px) --- */
+    @media (max-width: 900px) {
+        h1 {
+            font-size: 1.8rem;
         }
 
         .nav-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            max-width: 900px;
+            grid-template-columns: repeat(2, 1fr);
         }
 
         .nav-card {
-            background-color: #2e3a4d;
-            border: 1px solid #e5e5e5;
-            border-radius: 15px;
-            padding: 30px;
-            text-align: center;
-            transition: transform 0.3s;
+            padding: 20px 10px;
         }
+    }
 
-        .nav-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .nav-card a {
-            text-decoration: none;
-            color: #e5e5e5;
-        }
-
-        .nav-card h2 {
-            font-size: 20px;
+    /* --- Mobile (≤600px) --- */
+    @media (max-width: 600px) {
+        .nav-logo {
+            width: 140px;
             margin-bottom: 10px;
         }
 
-        .nav-card p {
-            font-size: 14px;
-            color: #999;
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 25px;
         }
+
+        .nav-grid {
+            grid-template-columns: 1fr;
+            gap: 15px;
+        }
+
+        .nav-card {
+            padding: 18px 10px;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 0.85rem;
+        }
+    }
     </style>
 </head>
+
 <body>
-    <div class="nav-page">
-        <div class="logo">
-            <img src="images/logo2.png" alt="Pokemmunity Logo">
-        </div>
+    <div class="logo">
+        <img class="nav-logo" src="images/logo2.png" alt="Pokemmunity Logo">
+    </div>
 
-        <p class="nav-subtitle">Select a page to view</p>
+    <div class="nav-grid">
+        <div class="nav-card">
+        <a href="login.html">
+            <h2>Login Page</h2>
+            <p>Test the login functionality</p>
+        </a>
+    </div>
 
-        <div class="nav-grid">
-            <div class="nav-card">
-                <a href="login.html">
-                    <h2>LOG IN</h2>
-                    <p>Sign in to your account</p>
-                </a>
-            </div>
+    <div class="nav-card">
+        <a href="register.html">
+            <h2>Register Page</h2>
+            <p>Test the registration system</p>
+        </a>
+    </div>
 
-            <div class="nav-card">
-                <a href="register.html">
-                    <h2>REGISTER</h2>
-                    <p>Create a new account</p>
-                </a>
-            </div>
+    <div class="nav-card">
+        <a href="home.html">
+            <h2>Home Feed</h2>
+            <p>View posts and trainer suggestions</p>
+        </a>
+    </div>
 
-            <div class="nav-card">
-                <a href="home.html">
-                    <h2>HOME PAGE</h2>
-                    <p>View your feed</p>
-                </a>
-            </div>
+    <div class="nav-card">
+        <a href="profile.html">
+            <h2>Profile Page</h2>
+            <p>Check user details and posts</p>
+        </a>
+    </div>
 
-            <div class="nav-card">
-                <a href="contacts.html">
-                    <h2>CONTACTS</h2>
-                    <p>Your trainer list</p>
-                </a>
-            </div>
+    <div class="nav-card">
+        <a href="settings.html">
+            <h2>Settings Page</h2>
+            <p>Adjust preferences and account info</p>
+        </a>
+    </div>
 
-            <div class="nav-card">
-                <a href="badges.html">
-                    <h2>BADGES</h2>
-                    <p>Your achievements</p>
-                </a>
-            </div>
+    <div class="nav-card">
+        <a href="about.html">
+            <h2>About Pokemmunity</h2>
+            <p>Learn more about the project</p>
+        </a>
+    </div>
+  </div>
 
-            <div class="nav-card">
-                <a href="trainer-card.html">
-                    <h2>TRAINER CARD</h2>
-                    <p>Your profile</p>
-                </a>
-            </div>
+    <footer class="footer bg-primary">
+        <div class="container">
+            <div class="footer-content-debug">
+            <div class="footer-links">
+                <div class="footer-column">
+                <h4 class="footer-heading">Explore My Socials</h4>
+                <ul class="footer-list">
+                    <li><a href="https://www.facebook.com/urahasam81" class="footer-link">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/mshru_kyma" class="footer-link">Instagram</a></li>
+                </ul>
+                </div>
 
-            <div class="nav-card">
-                <a href="settings.html">
-                    <h2>SETTINGS</h2>
-                    <p>App preferences</p>
-                </a>
+                <div class="footer-column">
+                <h4 class="footer-heading">Explore Our Professor</h4>
+                <ul class="footer-list">
+                    <li><a href="https://www.facebook.com/christructure" class="footer-link">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/christructure" class="footer-link">Instagram</a></li>
+                </ul>
+                </div>
+
+                <div class="footer-column">
+                <h4 class="footer-heading">My Inspirations</h4>
+                <ul class="footer-list">
+                    <li><a href="https://www.pokemon.com/us" target="_blank" rel="noopener" class="footer-link">Official Pokémon Website</a></li>
+                    <li><a href="https://discord.com/" target="_blank" rel="noopener" class="footer-link">Discord</a></li>
+                    <li><a href="https://serebii.net/" target="_blank" rel="noopener" class="footer-link">Serebii</a></li>
+                </ul>
             </div>
         </div>
     </div>
+
+        <div class="footer-bottom-debug">
+            <p>
+                &copy; 2025 Pokémmunity. All rights reserved.
+                <a href="https://github.com/phantomdoescode/Pokemmunity" class="footer-link" target="_blank" rel="noopener">
+                <img src="images/githubimage.png" alt="GitHub" class="footer-icon">My GitHub Repository</a>
+            </p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

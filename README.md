@@ -107,3 +107,6 @@ Let's catch them all, shall we?
 ### October 17, 2025 [FINAL MAJOR UPDATE]
 - Mobile viewport added via CSS.
 - Print query added via CSS.
+- Footer elements added in all HTML files.
+- Linked all the links to a website.
+- All JS Features finished.

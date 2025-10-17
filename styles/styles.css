@@ -6,8 +6,8 @@
 }
 
 @font-face {
-   font-family: 'Norwester';
-   src: url('../fonts/norwester.otf') format('opentype');
+  font-family: 'Norwester';
+  src: url('../fonts/norwester.otf') format('opentype');
 }
 
 /* Reset */
@@ -1187,7 +1187,7 @@ a:hover {
 
 /* Typography */
 .font-norwester {
-  font-family: 'Norwester', sans-serif;
+  font-family: 'Norwester';
   letter-spacing: 0.05em;
 }
 

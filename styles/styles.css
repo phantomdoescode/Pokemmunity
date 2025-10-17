@@ -1,7 +1,7 @@
 /* Pokemmunity CSS Stylesheet */
 
 @font-face {
-   font-family: Calps;
+   font-family: 'Calps';
    src: url(fonts/Calps-Regular.ttf) format('truetype');
 }
 
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   background-color: #1b2735;
   color: #e5e5e5;
   min-height: 100vh;
@@ -1187,27 +1187,27 @@ a:hover {
 }
 
 .font-calps-black {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   font-weight: 900;
 }
 
 .font-calps-medium {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   font-weight: 500;
 }
 
 .font-calps-regular {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   font-weight: 400;
 }
 
 .font-calps-light {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   font-weight: 300;
 }
 
 .font-calps-extralight {
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   font-weight: 200;
 }
 
@@ -1238,7 +1238,7 @@ a:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding: 50px 20px 25px;
   color: #e5e5e5;
-  font-family: Calps, sans-serif;
+  font-family: 'Calps', sans-serif;
   text-align: center;
 }
 

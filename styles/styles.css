@@ -2,7 +2,7 @@
 
 @font-face {
    font-family: 'Calps';
-   src: url(fonts/Calps-Regular.ttf) format('truetype');
+   src: url('../fonts/Calps-Regular.ttf') format('truetype');
 }
 
 /* Reset */

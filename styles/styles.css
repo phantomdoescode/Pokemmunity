@@ -1,8 +1,13 @@
 /* Pokemmunity CSS Stylesheet */
-
+/* Custom fonts */
 @font-face {
    font-family: 'Calps';
    src: url('../fonts/Calps-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Norwester';
+   src: url("../fonts/norwester.otf") format("opentype");
 }
 
 /* Reset */

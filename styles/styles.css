@@ -1249,6 +1249,12 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.footer-content-debug {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
 .footer-links {
   display: flex;
   justify-content: center;
@@ -1294,6 +1300,13 @@ a:hover {
   font-size: 13px;
   color: #ccc;
   margin-left: 90px;
+}
+
+.footer-bottom-debug {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 20px;
+  font-size: 13px;
+  color: #ccc;
 }
 
 .footer-bottom p {

@@ -71,6 +71,7 @@ Let's catch them all, shall we?
 - Fixed some issues starting at home.html
 - Moved/Created the styles.css to a styles folder.
 - All remaining files will be continued on October 13.
+- JS (JavaScript) Started.
 
 ### October 13, 2025
 - Images finalized
@@ -102,4 +103,7 @@ Let's catch them all, shall we?
 ### October 16, 2025
 - Tablet viewport added via CSS.
 - Mobile viewport currently implementing.
-- JS Started.
+
+### October 17, 2025 [FINAL MAJOR UPDATE]
+- Mobile viewport added via CSS.
+- Print query added via CSS.

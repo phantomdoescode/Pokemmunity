@@ -1245,7 +1245,7 @@ a:hover {
 .footer-content {
   display: flex;
   flex-direction: column;
-  margin-left: 90px;
+  margin-left: 70px;
   margin-bottom: 40px;
 }
 
@@ -1299,7 +1299,7 @@ a:hover {
   padding-top: 20px;
   font-size: 13px;
   color: #ccc;
-  margin-left: 90px;
+  margin-left: 70px;
 }
 
 .footer-bottom-debug {
@@ -1346,6 +1346,12 @@ a:hover {
   }
 }
 
+/* Hide footer on phone */
+@media (max-width: 480px) {
+  .footer {
+    display: none;
+  }
+}
 
 /* ========================================
           TABLET RESPONSIVE STYLES

@@ -110,3 +110,9 @@ Let's catch them all, shall we?
 - Footer elements added in all HTML files.
 - Linked all the links to a website.
 - All JS Features finished.
+
+### October 18, 2025
+- From debugmenu.html to index.html.
+- CSS Updated.
+- Website published on Github.
+- Improvements for the next following days.

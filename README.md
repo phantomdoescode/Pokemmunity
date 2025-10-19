@@ -116,3 +116,8 @@ Let's catch them all, shall we?
 - CSS Updated.
 - Website published on Github.
 - Improvements for the next following days.
+
+### October 19, 2025
+- Reviewed by upperclassmen under School of Computing
+- Currently implementing their suggestions.
+- Extension of dates.

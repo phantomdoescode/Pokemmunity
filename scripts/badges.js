@@ -41,6 +41,22 @@ class BadgesPage {
       }, index * 100);
     });
   }
+
+  animateProgress() {
+    const earnedCount = (this.currentUser.badges || []).length;
+    
+    // Animate earned badges counter
+    setTimeout(() => {
+      const earnedCard = document.querySelector('.progress-card');
+      if (earnedCard) {
+        const textElement = earnedCard.querySelector('');
+        if (textElement) {
+          // Run counter animation
+          animateCounter(textElement, 0, earnedCount, 1500);
+        }
+      }
+    }, 500);
+  }
   
   addBadgeHoverEffects() {
     document.querySelectorAll('.earned-badge, .locked-badge').forEach(badge => {

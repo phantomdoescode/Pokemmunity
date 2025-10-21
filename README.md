@@ -1,11 +1,23 @@
 # Pokémmunity
 This is my repository for WEBCS Final Project. It will start from September 30 to October 18. Expect updates every day.<br>
+LINK: https://phantomdoescode.github.io/Pokemmunity/
 
 Made by: **Masaharu M. Kayama**<br>
 Section: **CS - 201**<br>
 Professor/Instructor: **Mr. Chris Almocera**<br>
 
 Let's catch them all, shall we?
+
+## How to use my website:
+- Step 1: Clicking the link would bring you to the Debug Menu (index.html).
+- Step 2: Clicking any button would redirect you to the Login Page.
+- (FOR FIRST TIME USERS ONLY) Click the link in that page to Register.
+- Step 4: Register using any email and any password you like (at least 8 characters would do).
+- Step 5: After registering, it would bring you to the Home Page and feel free to explore what you can do.
+
+### Technicalities:
+- By going back to the debug menu again, clicking any of the options would actually now go to that page since you are already logged in.
+- Clicking the Log In on the debug menu would bring you to the login page. There you can try if your entered email and password will work.
 
 ## Update Logs:
 
@@ -129,3 +141,10 @@ Let's catch them all, shall we?
 
 ### October 21, 2025 [FINAL UPDATE]
 - Website completed.
+
+## Limitations to my website:
+- Not a fully functional website, just a demo on how it would work.
+- Profile name would be defaulted to Phantom (My gamer name). Although, you can change that on the Trainer Card Page.
+- Some JavaScript functions are not added since I want to keep it simple and not complicate the idea.
+- Hamburger menu not added because I want to imitate a social media sidebar (quick navigation bar).
+- Does not have any server to connect to so all forms are for testing and are safe.

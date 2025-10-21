@@ -8,15 +8,15 @@ Professor/Instructor: **Mr. Chris Almocera**<br>
 
 Let's catch them all, shall we?
 
-## How to use my website:
-- Step 1: Clicking the link would bring you to the Debug Menu (index.html).
+## How to use my website (FOR USERS THAT WOULD GO TO MY WEBSITE FOR THE FIRST TIME):
+- Step 1: Going to the link published in GitHub would bring you to the Debug Menu by default (index.html).
 - Step 2: Clicking any button would redirect you to the Login Page.
-- (FOR FIRST TIME USERS ONLY) Click the link in that page to Register.
+- Step 3: Click the link in that page to Register.
 - Step 4: Register using any email and any password you like (at least 8 characters would do).
 - Step 5: After registering, it would bring you to the Home Page and feel free to explore what you can do.
 
-### Technicalities:
-- By going back to the debug menu again, clicking any of the options would actually now go to that page since you are already logged in.
+### After register (if users go back to the debug menu):
+- Clicking any of the options would actually now go to that page since you are already logged in.
 - Clicking the Log In on the debug menu would bring you to the login page. There you can try if your entered email and password will work.
 
 ## Update Logs:

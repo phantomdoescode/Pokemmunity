@@ -121,3 +121,11 @@ Let's catch them all, shall we?
 - Reviewed by upperclassmen under School of Computing
 - Currently implementing their suggestions.
 - Extension of dates.
+
+### October 20, 2025
+- Podcast done (Discussion of work with groups).
+- Fixed a few improvements for the HTML code.
+- Fixed some JS codes (added functions to badges.js).
+
+### October 21, 2025 [FINAL UPDATE]
+- Website completed.

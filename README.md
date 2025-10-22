@@ -140,6 +140,7 @@ Let's catch them all, shall we?
 - Fixed some JS codes (added functions to badges.js).
 
 ### October 21, 2025 [FINAL UPDATE]
+- Favicons added.
 - Website completed.
 
 ## Limitations to my website:

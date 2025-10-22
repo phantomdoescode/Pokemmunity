@@ -1,5 +1,5 @@
 # Pokémmunity
-This is my repository for WEBCS Final Project. It will start from September 30 to October 18. Expect updates every day.<br>
+This is my repository for WEBCS Final Project. It will start from September 30 to October 21. Expect updates every day.<br>
 LINK: https://phantomdoescode.github.io/Pokemmunity/
 
 Made by: **Masaharu M. Kayama**<br>
